@@ -1,0 +1,160 @@
+@charset "utf-8";
+.container {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;}
+
+.slider {
+    display: flex;
+    flex: 1 1 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;}
+
+.item {
+    flex: 0 0 150px;
+    height: 215px;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;}
+
+.item:first-child {
+    margin-left: 0;}
+
+.item:nth-child(1) {
+    background: #f5743d;
+    z-index: 20;}
+
+.item:nth-child(2) {
+    background: #f5ab3d;
+    z-index: 19;
+}
+
+.item:nth-child(3) {
+    background: #f5e23d;
+    z-index: 18;
+}
+
+.item:nth-child(4) {
+    background: #d0f53d;
+    z-index: 17;
+}
+
+.item:nth-child(5) {
+    background: #99f53d;
+    z-index: 16;
+}
+
+.item:nth-child(6) {
+    background: #62f53d;
+    z-index: 15;
+}
+
+.item:nth-child(7) {
+    background: #3df550;
+    z-index: 14;
+}
+
+.item:nth-child(8) {
+    background: #3df587;
+    z-index: 13;
+}
+
+.item:nth-child(9) {
+    background: #3df5be;
+    z-index: 12;
+}
+
+.item:nth-child(10) {
+    background: #3df5f5;
+    z-index: 11;
+}
+
+.item:nth-child(11) {
+    background: #3dbef5;
+    z-index: 10;
+}
+
+.item:nth-child(12) {
+    background: #3d87f5;
+    z-index: 9;
+}
+
+.item:nth-child(13) {
+    background: #3d50f5;
+    z-index: 8;
+}
+
+.item:nth-child(14) {
+    background: #623df5;
+    z-index: 7;
+}
+
+.item:nth-child(15) {
+    background: #993df5;
+    z-index: 6;
+}
+
+.item:nth-child(16) {
+    background: #d03df5;
+    z-index: 5;
+}
+
+.item:nth-child(17) {
+    background: #f53de2;
+    z-index: 4;
+}
+
+.item:nth-child(18) {
+    background: #f53dab;
+    z-index: 3;
+}
+
+.item:nth-child(19) {
+    background: #f53d74;
+    z-index: 2;
+}
+
+.item:nth-child(20) {
+    background: #f53d3d;
+    z-index: 1;
+}
+
+.item a {
+    flex: 1;
+}
+
+.controls {
+    margin-top: 20px;
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button {
+    border: none;
+    border-radius: 25px;
+    background: #f65555;
+    padding: 12px 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.progress-bar {
+    flex: 0 0 200px;
+    height: 4px;
+    border-radius: 4px;
+    margin: 0 20px;
+    background: #f65555;
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+}
